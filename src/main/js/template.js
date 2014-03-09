@@ -145,7 +145,7 @@ var checkThresholds = function (collector, options) {
  *
  * @param {Object} grunt The grunt object
  * @param {Object} task Provides utility methods to register listeners and
- *	   handle temporary files
+ *		handle temporary files
  * @param {Object} context Contains all options
  *
  * @return {String} The template HTML source of the mixed in template
@@ -173,7 +173,7 @@ var processMixedInTemplate = function (grunt, task, context) {
  *
  * @param {Object} grunt The grunt object
  * @param {Object} task Provides utility methods to register listeners and
- *	   handle temporary files
+ *		handle temporary files
  * @param {Object} context Contains all options
  *
  * @return {String} The template HTML source
