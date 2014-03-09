@@ -1,4 +1,4 @@
-/* globals require, exports */
+/* globals require, exports, __dirname, process */
 /**
  * Code coverage via istanbul.
  *
