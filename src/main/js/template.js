@@ -209,7 +209,7 @@ exports.process = function (grunt, task, context) {
 					replacement.from);
 		});
 	}
-	if (context.options.replace != false) {
+	if (context.options.replace !== false) {
 		// replace instrumented sources and keep uninstrumented
 		context.scripts.src = context.scripts.src.map(function (source) {
 			var instrumentedSource = null;
